@@ -16,3 +16,10 @@ export function errorFactory(type) {
 export class APIError extends errorFactory('APIError') {}
 
 export class ConstructionError extends errorFactory('ConstructionError') {}
+
+// Example usage of the error classes
+export class ValidationError extends errorFactory('ValidationError') {}
+
+export class AuthenticationError extends errorFactory('AuthenticationError') {}
+
+export class NotFoundError extends errorFactory('NotFoundError') {}
