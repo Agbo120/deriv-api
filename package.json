@@ -4,10 +4,11 @@
   "description": "Websocket API for Deriv applications",
   "main": "dist/DerivAPI.js",
   "unpkg": "dist/DerivAPI.js",
-  "files": [
+  "files": [   
     "dist/*.js"
   ],
   "scripts": {
+    "start": "node dist/DerivAPI.js",
     "test": "jest --verbose --forceExit",
     "build": "webpack --config webpack.config.js",
     "examples": "npm run build -- --display=none; for e in examples/*; do node $e; done",
@@ -65,7 +66,5 @@
     "json-stable-stringify": "^1.1.1",
     "rxjs": "^7.8.1"
   }
-}"scripts": {
-  "start": "node dist/DerivAPI.js"
 }
 
