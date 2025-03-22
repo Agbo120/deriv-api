@@ -65,4 +65,7 @@
     "json-stable-stringify": "^1.1.1",
     "rxjs": "^7.8.1"
   }
+}"scripts": {
+  "start": "node dist/DerivAPI.js"
 }
+
